@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import "../../bower_components/normalize.css/normalize.css";
+@import "partials/app";
+
+// @import "../../node_modules/slick-carousel/slick/slick.scss";
+
+a, p, span, div, h1, h2 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    width: 1124px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 25px 0;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.header__logo {
+    width: 167px;
+    height: 59px;
+    img {
+        width: 100%;
+    }
+}
+
+.href__item {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b0b0b;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.section__our-partners {
+    padding-top: 177px;
+    padding-bottom: 121px;
+    background-image: url(../img/bg.png);
+    background-position: center center;
+    background-size: cover;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+.our-partners__title {
+    font-size: 48px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.our-partners__text {
+    margin-top: 24px;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.our-partners__cirсle {
+    width: 100%;
+    margin-top: 183px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle__item {
+    width: 145px;
+    height: 145px;
+    border: solid 4px #ef4136;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle__item-title {
+    font-size: 32px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.circle__item-text {
+    width: 68%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sectiont__partners-list {
+    padding-top: 80px;
+}
+
+.partners-list__title {
+    h2 {
+        font-size: 36px;
+        font-weight: 800;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.28;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0b0b0b;
+        &:after {
+            content: "";
+            display: block;
+            margin: 24px auto;
+            width: 170px;
+            height: 2px;
+            object-fit: contain;
+            border-bottom: solid 2px #f03a31;
+        }
+    }
+}
+
+.partners-list__item {
+    margin: 15px;
+    width: 370px;
+    height: 420px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.13);
+    img {
+        width: 176px;
+        height: 176px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+}
+
+.partners-list__item_title {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0b0b0b;
+}
+
+.partners-list__item_text {
+    margin: 16px auto;
+    width: 87%;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0b0b0b;
+}
+
+.partners-list__item_learn {
+    width: 87%;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: right;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fe1204;
+}
+
